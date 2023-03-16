@@ -90,3 +90,47 @@ body {
   width: 400px;
   height: 400px;
 }
+#product {
+  width: 100%;
+  /* height: 70vh; */
+  background-color: rgb(2, 2, 136);
+  padding: 30px 50px;
+  display: flex;
+}
+#product h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.product-detail {
+  width: 25%;
+  /* height: 50vh; */
+  margin-left: 10px;
+  background-color: rgb(253, 208, 152);
+  border-radius: 20px;
+}
+.product-detail:hover {
+  transform: translateY(3px);
+  box-shadow: 2px 2px 1px 1px gray;
+}
+.product-detail h2 {
+  text-align: center;
+  padding-top: 10px;
+  font-weight: bold;
+}
+.product-detail .img {
+  padding: 20px 50px;
+}
+.product-detail p {
+  padding: 15px;
+  /* font-size: 20px; */
+}
+#btn {
+  padding: 10px 5px;
+  margin: 10px 70px;
+  background-color: rgb(255, 255, 0);
+  border-radius: 10px;
+  border: none;
+}
+#btn:hover {
+  background-color: white;
+}
