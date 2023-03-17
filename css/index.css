@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: space-between;
   /* background-attachment: fixed; */
-  /* position: fixed; */
+  position: fixed;
 }
 .navbar ul {
   display: flex;
