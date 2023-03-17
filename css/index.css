@@ -9,9 +9,11 @@ body {
 .navbar {
   background-color: rgb(123, 125, 128);
   width: 100%;
-  height: 15vh;
+  /* height: 15vh; */
   display: flex;
   justify-content: space-between;
+  /* background-attachment: fixed; */
+  /* position: fixed; */
 }
 .navbar ul {
   display: flex;
@@ -41,34 +43,53 @@ body {
   margin-top: 4px;
 }
 .container {
-  height: 85vh;
-  display: flex;
+  /* height: 85vh; */
+  display: block;
   /* background-color: rgb(167, 213, 253); */
   width: 100%;
-  justify-content: space-between;
-  background-attachment: fixed;
+  /* justify-content: space-between; */
+  /* background-attachment: fixed; */
 }
 .container1 {
   height: 65vh;
   /* background-color: rgb(252, 252, 80); */
-  width: 45%;
-  padding-left: 30px;
-  padding-top: 30px;
+  width: 100%;
+  /* padding-left: 30px; */
+  padding-top: 5%;
+  text-align: center;
 }
 .container2 {
-  height: 85vh;
-  /* background-color: rgb(248, 65, 65); */
-  width: 45%;
-  background-image: url(../Images/pexels-chan-walrus-958545.jpg);
+  height: 100vh;
+
+  width: 100%;
+  background-image: url(../Images/Restaurant.jpeg);
   background-size: cover;
+  background-position: center;
+}
+.container2 .text {
+  padding-top: 7%;
+  margin-left: 20%;
+  color: white;
+
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.text h1 {
+  font-weight: 900;
+}
+.text p {
+  padding-left: 15%;
 }
 .btn {
-  padding: 10px;
-  margin-top: 30%;
+  padding: 20px;
+  margin-top: 2%;
   margin-right: 50px;
-  background-color: rgb(255, 255, 0);
+  background-color: rgb(0, 73, 230);
   border-radius: 10px;
   border: none;
+}
+.btn a {
+  text-decoration: none;
+  color: white;
 }
 .content1 {
   display: flex;
@@ -96,22 +117,187 @@ body {
   /* background-color: rgb(2, 2, 136); */
   padding: 30px 50px;
   display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 10%;
 }
 .h1 {
   text-align: center;
   padding-bottom: 20px;
+  /* position: fixed; */
 }
-.product-detail {
+.product-detail1 {
   width: 25%;
-  /* height: 50vh; */
+  height: 70vh;
   margin-left: 10px;
-  background-color: rgb(250, 222, 189);
+  /* background-color: transparent; */
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 3px gray;
+  perspective: 1000px;
+  /* position: absolute; */
+}
+/* .product-detail1:hover {
+  transform: translateY(3px); */
+/* } */
+.more {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: all 1s;
+  transform-style: preserve-3d;
+}
+.product-detail1:hover .more {
+  transform: rotateY(180deg);
+  transition: all 1s;
+}
+.more-front,
+.more-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   border-radius: 20px;
 }
-.product-detail:hover {
-  transform: translateY(3px);
-  box-shadow: 2px 2px 1px 1px gray;
+.more-front {
+  background-image: url(../Images/burger2.jpg);
+  background-size: cover;
+  background-position: center;
 }
+.more-back {
+  background-color: rgb(0, 73, 230);
+  color: white;
+  transform: rotateY(180deg);
+}
+.bton {
+  padding: 20px;
+  margin-top: 2%;
+  /* margin-right: 30px; */
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: none;
+}
+.bton a {
+  text-decoration: none;
+  color: black;
+}
+.product-detail2 {
+  width: 25%;
+  height: 70vh;
+  margin-left: 10px;
+  /* background-color: transparent; */
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 3px gray;
+  perspective: 1000px;
+  /* position: absolute; */
+}
+/* .product-detail1:hover {
+  transform: translateY(3px); */
+/* } */
+.more2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: all 1s;
+  transform-style: preserve-3d;
+}
+.product-detail2:hover .more2 {
+  transform: rotateY(180deg);
+  transition: all 1s;
+}
+.more-front2,
+.more-back2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 20px;
+}
+.more-front2 {
+  background-image: url(../Images/Tea&Coffee.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+.more-back2 {
+  background-color: rgb(0, 73, 230);
+  color: white;
+  transform: rotateY(180deg);
+}
+.bton {
+  padding: 20px;
+  margin-top: 2%;
+  /* margin-right: 30px; */
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: none;
+}
+
+.product-detail3 {
+  width: 25%;
+  height: 70vh;
+  margin-left: 10px;
+  /* background-color: transparent; */
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 3px gray;
+  perspective: 1000px;
+  /* position: absolute; */
+}
+/* .product-detail1:hover {
+  transform: translateY(3px); */
+/* } */
+.more3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: all 1s;
+  transform-style: preserve-3d;
+}
+.product-detail3:hover .more3 {
+  transform: rotateY(180deg);
+  transition: all 1s;
+}
+.more-front3,
+.more-back3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 20px;
+}
+.more-front3 {
+  background-image: url(../Images/pexels-rachel-claire-5531100.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.more-back3 {
+  background-color: rgb(0, 73, 230);
+  color: white;
+  transform: rotateY(180deg);
+}
+.bton {
+  padding: 20px;
+  margin-top: 2%;
+  /* margin-right: 30px; */
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: none;
+}
+/* .product-detail4 {
+  width: 25%;
+  height: 50vh;
+  margin-left: 10px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 3px gray;
+} */
+/* .product-detail4:hover {
+  transform: translateY(3px);
+} */
 .product-detail h2 {
   text-align: center;
   padding-top: 10px;
@@ -133,5 +319,45 @@ body {
   border: none;
 }
 #btn:hover {
-  background-color: white;
+  background-color: rgb(126, 125, 125);
 }
+.contacts {
+  height: 20vh;
+  /* background-color: gray; */
+}
+/* .container2 {
+  position: relative;
+  overflow: hidden;
+ 
+}
+.slider {
+  display: none;
+}
+.slide-wrapper {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+}
+.slide-wrapper .slider-slides {
+  display: flex;
+  padding: 0;
+  width: 200%;
+  line-height: 0;
+  transition: all 1s;
+}
+#slide1:checked ~ .slide-wrapper .slider-slides {
+  margin-left: 0;
+}
+#slide2:checked ~ .slide-wrapper .slider-slides {
+  margin-left: -100%;
+}
+
+.slider-slide {
+  width: calc(100% / 2);
+}
+.slider-slide img {
+
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+} */
