@@ -13,7 +13,7 @@ body {
   display: flex;
   justify-content: space-between;
   /* background-attachment: fixed; */
-  position: fixed;
+  /* position: fixed; */
   /* margin-bottom: 40%; */
 }
 .navbar ul {
@@ -45,42 +45,100 @@ body {
 }
 #fastfood {
   display: flex;
-  gap: 40px;
+}
+#fastfood1 {
+  display: block;
   margin-left: 50px;
   margin-top: 3%;
+  width: 100%;
 }
-#fastfood img {
-  width: 20%;
+.burger {
+  background-image: url(../Images/Burger.jpg);
+  width: 70%;
   height: 60vh;
-
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 3px gray;
+}
+.hotdog {
+  background-image: url(../Images/Hotdogs.jpg);
+  width: 70%;
+  height: 60vh;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 3px gray;
+}
+.cake {
+  background-image: url(../Images/Cakes.jpg);
+  width: 70%;
+  height: 60vh;
+  background-size: cover;
   border-radius: 20px;
   box-shadow: 3px 3px 3px 3px gray;
 }
 #beverages {
   display: flex;
-  gap: 40px;
+}
+#beverages1 {
+  display: block;
   margin-left: 50px;
   margin-top: 3%;
+  width: 100%;
 }
-#beverages img {
-  width: 20%;
+.tea {
+  background-image: url(../Images/Tea.jpg);
+  width: 70%;
   height: 60vh;
-
-  /* background-color: transparent; */
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 3px gray;
+}
+.coffee {
+  background-image: url(../Images/pexels-tyler-nix-2396220.jpg);
+  width: 70%;
+  height: 60vh;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 3px gray;
+}
+.juice {
+  background-image: url(../Images/Juice.jpg);
+  width: 70%;
+  height: 60vh;
+  background-size: cover;
   border-radius: 20px;
   box-shadow: 3px 3px 3px 3px gray;
 }
 #meals {
   display: flex;
-  gap: 40px;
+}
+#meals1 {
+  display: block;
   margin-left: 50px;
   margin-top: 3%;
+  width: 100%;
 }
-#meals img {
-  width: 20%;
+.rice {
+  background-image: url(../Images/Chicken&Rice.jpg);
+  width: 70%;
   height: 60vh;
-  /* margin-left: 10px; */
-  /* background-color: transparent; */
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 3px gray;
+}
+.omlette {
+  background-image: url(../Images/Omlette.jpg);
+  width: 70%;
+  height: 60vh;
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 3px gray;
+}
+.pasta {
+  background-image: url(../Images/Pasta.jpg);
+  width: 70%;
+  height: 60vh;
+  background-size: cover;
   border-radius: 20px;
   box-shadow: 3px 3px 3px 3px gray;
 }
