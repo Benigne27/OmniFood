@@ -49,13 +49,14 @@ body {
   border-left: 3px solid black;
   height: 300px;
   position: absolute;
-  left: 30%;
+  left: 40%;
   top: 30%;
 }
 .cont {
   margin-top: 5%;
   margin-left: 10%;
   width: 20%;
+  font-size: 20px;
 }
 #ad {
   text-align: center;
@@ -75,5 +76,5 @@ body {
 .message {
   width: 50%;
   margin-top: 5%;
-  margin-left: 5%;
+  margin-left: 20%;
 }
