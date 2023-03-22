@@ -9,7 +9,7 @@ body {
   /* color: white; */
 }
 .navbar {
-  background-color: rgb(123, 125, 128);
+  background-color: rgb(106, 131, 160);
   width: 100%;
   /* height: 15vh; */
   display: flex;
@@ -40,10 +40,10 @@ body {
   cursor: pointer;
 }
 .logo img {
-  width: 85px;
-  height: 85px;
+  width: 200px;
+  height: 100px;
   margin-left: 40%;
-  margin-top: 4px;
+  /* margin-top: 4px; */
 }
 .vertical {
   border-left: 3px solid black;
@@ -54,9 +54,10 @@ body {
 }
 .cont {
   margin-top: 5%;
-  margin-left: 10%;
+  margin-left: 5%;
   width: 20%;
   font-size: 20px;
+  color: white;
 }
 #ad {
   text-align: center;
@@ -74,7 +75,18 @@ body {
   display: flex;
 }
 .message {
+  position: absolute;
   width: 50%;
   margin-top: 5%;
-  margin-left: 20%;
+  margin-left: 50%;
+  padding-left: 200px;
+  color: white;
+}
+.universe {
+  background-image: url(../Images/silver\ globe.jpg);
+  background-size: cover;
+  /* background-position: center; */
+  height: 83.3vh;
+  width: 100%;
+  /* background: rgba(255, 255, 255, 0); */
 }
