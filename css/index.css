@@ -182,7 +182,6 @@ body {
 .bton {
   padding: 20px;
   margin-top: 2%;
-  /* margin-right: 30px; */
   background-color: rgb(255, 255, 255);
   border-radius: 10px;
   border: none;
@@ -418,5 +417,27 @@ body {
     width: 100px;
     height: 100px;
     margin: 0;
+  }
+  .bton {
+    padding: 10px;
+    margin-top: 2%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    border: none;
+  }
+  .more-back p {
+    width: 70%;
+    font-size: 10px;
+    margin-left: 25px;
+  }
+  .more-back2 p {
+    width: 70%;
+    font-size: 10px;
+    margin-left: 25px;
+  }
+  .more-back3 p {
+    width: 70%;
+    font-size: 10px;
+    margin-left: 25px;
   }
 }

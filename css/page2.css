@@ -167,3 +167,63 @@ body {
   mix-blend-mode: screen;
   transform: translate(-50%, -50%);
 } */
+@media screen and (max-width: 800px) {
+  .navbar {
+    display: block;
+    width: 100%;
+  }
+  .navbar ul {
+    /* display: block; */
+    margin-top: -40px;
+  }
+  .logo img {
+    width: 100px;
+    height: 100px;
+    margin: 0;
+  }
+  .burger {
+    height: 40vh;
+    width: 100%;
+  }
+  .hotdog {
+    height: 40vh;
+    width: 100%;
+  }
+  .cake {
+    height: 40vh;
+    width: 100%;
+  }
+  .tea {
+    height: 40vh;
+    width: 100%;
+  }
+  .coffee {
+    height: 40vh;
+    width: 100%;
+  }
+  .juice {
+    height: 40vh;
+    width: 100%;
+  }
+  .rice {
+    height: 40vh;
+    width: 100%;
+  }
+  .omlette {
+    height: 40vh;
+    width: 100%;
+  }
+  .pasta {
+    height: 40vh;
+    width: 100%;
+  }
+  #fastfood1 {
+    margin: 20px;
+  }
+  #beverages1 {
+    margin: 20px;
+  }
+  #meals1 {
+    margin: 20px;
+  }
+}
